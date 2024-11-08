@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+.header {
+    height: 100vh;
+    color: white;
+    background-image: url(image/banner/banner.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.nav {
+    padding: 16px 32.5px 0px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.voucher {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 8px;
+}
+
+.voucher p {
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+}
+
+.main-nav ul li {
+    margin-left: 16px;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-text p {
+    font-family: Lora;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.section-1 {
+    text-align: center;
+    padding: 100px 325px;
+}
+
+.img-section-1 {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.img-section-1 img {
+    border-radius: 16px;
+    max-width: 379px;
+    height: 618px;
+    margin: 0 16px;
+    object-fit: cover;
+}
+
+.section-2 {
+    padding: 0px 45px 100px;
+}
+
+.post-section-2 {
+    display: flex;
+    gap: 8px;
+    margin: 8px 0;
+    
+}
+
+ .img-section-2{
+    width: 50%;
+}
+
+.content-section-2 {
+    border-radius: 24px;
+    width: 50%;
+    background: #F4F0EA;
+    padding: 50px;
+
+} 
+
+.img-section-2 img{
+    border-radius: 24px;
+    width: 100%;
+    object-fit: cover;
+    height: 800px;
+}
+
+
+.btn-subscribe {
+    padding: 16px 50px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    margin: 15px 0;
+}
+
+.footer-1 ul, .footer-3 ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-2 { 
+    display: flex;
+}
+
+.footer-2 ul {
+    list-style: none;
+}
+
+.footer-2 ul li a, .footer-3 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footer-1 ul li, .footer-3 ul li{
+    margin-right: 16px;
+}
+
+.footer-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background:  #F4F0EA;
+    padding: 45px 45px 0;
+}
